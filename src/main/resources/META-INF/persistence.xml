@@ -11,9 +11,9 @@ http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	    <class>de.java2enterprise.onlineshop.model.Customer</class>
 	    <class>de.java2enterprise.onlineshop.model.Item</class>
 	    <properties>
-	       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.11.13.130:3306/onlineshop"/>
-	       <property name="javax.persistence.jdbc.user" value="adminZkmKEX1"/>
-	       <property name="javax.persistence.jdbc.password" value="CXhVNck23fiG"/>
+	       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://lovalhost:3306/onlineshop"/>
+	       <property name="javax.persistence.jdbc.user" value="admin"/>
+	       <property name="javax.persistence.jdbc.password" value=""/>
 	       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
 	       <property name="hibernate.hbm2ddl.auto" value="create-drop" />
          <property name="hibernate.show_sql" value="false" />
